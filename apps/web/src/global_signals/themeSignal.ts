@@ -1,3 +1,5 @@
+"use client";
+
 import { effect, signal } from "@preact/signals-react";
 
 const localStorageKey = "theme";
