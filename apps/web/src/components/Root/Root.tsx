@@ -10,7 +10,7 @@ export const Root = ({ children }: Props) => {
 
     return (
         <html lang="en" className={theme.value}>
-            <body className="bg-white dark:bg-slate-950">{children}</body>
+            <body className="bg-primary">{children}</body>
         </html>
     );
 };

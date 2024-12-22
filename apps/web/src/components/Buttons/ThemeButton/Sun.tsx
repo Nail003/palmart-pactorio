@@ -31,7 +31,7 @@ export const Sun = ({ hoverAnimation = false }: Props) => {
             <div className="absolute w-full h-full bg-orange-600  rounded-full "></div>
             <motion.div
                 animate={animate}
-                className="absolute flex justify-center items-center w-full h-full"
+                className="absolute center w-full h-full"
             >
                 {raysDirectionVectors.map((ray, index) => (
                     <Ray

@@ -20,11 +20,11 @@ export const Moon = ({ hoverAnimation = false }: Props) => {
     const animate = { rotateZ: hoverAnimation ? 90 : 0 };
 
     return (
-        <div className="m-3 text-2xl w-6 h-6 flex justify-center items-center">
+        <div className="m-3 text-2xl w-6 h-6 center">
             <FaMoon />
             <motion.div
                 animate={animate}
-                className="text-[8px] absolute flex justify-center items-center"
+                className="text-[8px] absolute center"
             >
                 {raysDirectionVectors.map((ray, index) => (
                     <Ray

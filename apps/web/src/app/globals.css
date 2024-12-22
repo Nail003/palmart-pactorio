@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply text-black dark:text-white;
+        @apply font-mono text-black dark:text-white;
     }
 
     h1 {
@@ -29,5 +29,15 @@
 
     p {
         @apply text-base text-slate-700 dark:text-slate-300;
+    }
+}
+
+@layer utilities {
+    .center {
+        @apply flex justify-center items-center;
+    }
+
+    .bg-primary {
+        @apply bg-white dark:bg-slate-950;
     }
 }
