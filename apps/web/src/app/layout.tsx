@@ -3,8 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
     title: "Palmart Pactorio",
-    description:
-        "Palmart Pactorio is a free-to-play open source game that is heavily inspired by factorio.",
+    description: "Web version of the game Palmart Pactorio",
 };
 
 export default function RootLayout({
