@@ -18,7 +18,7 @@ export const BaseAlertBox = ({
     return (
         <div
             onClick={onBackgroundClick}
-            className="overflow-hidden absolute center top-0 left-0 w-screen h-screen bg-black bg-opacity-20 backdrop-blur-sm"
+            className="overflow-hidden px-1 absolute center top-0 left-0 w-screen h-screen bg-black bg-opacity-20 backdrop-blur-sm"
         >
             <motion.div
                 initial={initial}
