@@ -1,3 +1,10 @@
-import { signal } from "@preact/signals-react";
+import { effect, signal } from "@preact/signals-react";
 
-export const theme = signal("light");
+const localStorageKey = "theme";
+const initialTheme = localStorage.getItem(localStorageKey) || "light";
+
+export const theme = signal(initialTheme);
+
+effect(() => {
+    localStorage.setItem(localStorageKey, theme.value);
+});

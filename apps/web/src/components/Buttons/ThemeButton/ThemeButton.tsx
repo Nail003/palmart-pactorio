@@ -25,8 +25,6 @@ export const ThemeButton = () => {
         setHoveAnimation(false);
     };
 
-    console.log(hoveAnimation);
-
     return (
         <motion.button
             title="Toggle Theme"
