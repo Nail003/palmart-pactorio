@@ -8,7 +8,7 @@ type Props = {
 
 export const ButtonAlert = ({ children, onClick }: Props) => {
     return (
-        <Button className="border-slate-100 text-white" onClick={onClick}>
+        <Button className="border-white text-white" onClick={onClick}>
             {children}
         </Button>
     );
