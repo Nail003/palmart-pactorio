@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Root } from "@/components";
 
 export const metadata: Metadata = {
     title: "Palmart Pactorio",
@@ -11,9 +12,5 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body>{children}</body>
-        </html>
-    );
+    return <Root>{children}</Root>;
 }

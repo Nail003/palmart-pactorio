@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { ThemeButton } from "@/components/Buttons";
 
 export default function Home() {
-    return <div>Hello World</div>;
+    return (
+        <div>
+            <ThemeButton />
+        </div>
+    );
 }
