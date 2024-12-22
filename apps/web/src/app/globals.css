@@ -40,4 +40,8 @@
     .bg-primary {
         @apply bg-white dark:bg-slate-950;
     }
+
+    .text-color-alert {
+        @apply text-slate-300;
+    }
 }
